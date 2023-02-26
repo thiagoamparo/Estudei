@@ -36,8 +36,8 @@ void main() {
       Product product = Product(
         code: products[codeProduct]['Code'], 
         name: products[codeProduct]['Name'], 
-        price: products[codeProduct]['Price']
-        // discont: products[codeProduct]['Discont']
+        price: products[codeProduct]['Price'],
+        discont: products[codeProduct]['Discont']
       );
 
       int indexWhere = itens.indexWhere((element) => element.product.name == product.name);
