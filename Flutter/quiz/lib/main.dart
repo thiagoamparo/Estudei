@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/questionnaire.dart';
+import 'package:quiz/menu.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlueAccent),
         useMaterial3: true,
       ),
-      home: Questionnaire(),
+      home: Menu('assets/json/questions.json'),
     );
   }
 }

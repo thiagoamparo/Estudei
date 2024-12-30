@@ -2,15 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quiz/clue.dart';
-import 'package:quiz/question.dart';
 import 'package:quiz/questionnaire.dart';
-import 'package:quiz/response.dart';
 
 class Menu extends StatefulWidget {
-  final String title = 'Questionário Geral';
+  final String dataFilePath;
+  final String title = 'Flutter Quiz App';
   final String subTitle = 'Teste Seu Conhecimento!';
-  const Menu({super.key});
+  const Menu(this.dataFilePath, {super.key});
 
   @override
   State<Menu> createState() => _MenuState();
@@ -18,14 +16,29 @@ class Menu extends StatefulWidget {
 
 class _MenuState extends State<Menu> {
   int totalQuestions = 0;
+  int totalSelectedQuestions = 0;
+  int totalSelectedTopics = 0;
+  int totalQuestionsController = 0;
   int idQuestion = 0;
   int totalScore = 0;
   bool start = false;
+  bool allSelected = false;
   bool fillCompleted = false;
-  bool loadingCompleted = false;
+  bool loadingComplete = false;
   List<dynamic> questions = [];
+  List<dynamic> selectedQuestions = [];
   Set<String> topics = {};
   Map<String, bool> selected = {};
+
+  bool get end => idQuestion < totalSelectedQuestions;
+
+  final int defaultTotalController = 10;
+  final bool defaultSelectController = true;
+  final bool defaultCacheController = true;
+
+  final TextEditingController totalController = TextEditingController(
+    text: '10',
+  );
 
   @override
   void initState() {
@@ -40,14 +53,23 @@ class _MenuState extends State<Menu> {
                 .map((question) => (question['Question']['topic'] as String))
                 .toList()
                 .toSet();
-            for (var topico in topics) {
-              selected[topico] = false;
-            }
+            onAll(defaultSelectController);
           },
         );
-        loadingCompleted = true;
+        totalQuestionsController = defaultTotalController;
+        loadingComplete = true;
       },
     );
+  }
+
+  void onAll(bool select) {
+    setState(() {
+      for (var topic in topics) {
+        selected[topic] = select;
+      }
+      allSelected = !select;
+      refresh();
+    });
   }
 
   void onSelect(int score) {
@@ -75,53 +97,70 @@ class _MenuState extends State<Menu> {
     );
   }
 
-  void onRestart() {
+  void onRestart(bool cache) {
     setState(
       () {
         idQuestion = 0;
         totalScore = 0;
         start = false;
         fillCompleted = false;
+        if (cache) {
+          for (var topic in topics) {
+            if (selected.containsKey(topic)) {
+              selected[topic] = (selected[topic] as bool);
+            } else {
+              selected[topic] = false;
+            }
+          }
+        } else {
+          onAll(defaultSelectController);
+        }
       },
     );
   }
 
-  final TextEditingController total = TextEditingController();
+  void refresh() {
+    setState(() {
+      selectedQuestions = filterQuestions(questions);
+      if (selectedQuestions.isNotEmpty) {
+        totalSelectedQuestions = selectedQuestions.length;
+      } else {
+        totalSelectedQuestions = 0;
+      }
+    });
+  }
 
   Future<List<dynamic>> loadQuestions() async {
-    // await Future.delayed(Duration(seconds: 2));
-    final String response =
-        await rootBundle.loadString('assets/json/questions.json');
+    final String response = await rootBundle.loadString(widget.dataFilePath);
     final data = await json.decode(response);
 
     return data['Questions'];
   }
 
-  Question createQuestion(Map<String, dynamic> question) {
-    return Question(
-      statement: question['Question']['statement'].toString(),
-      topic: question['Question']['topic'].toString(),
-      clues: (question['Question']['clues'] as List).map(
-        (clue) {
-          return Clue(
-            statement: clue['statement'],
-          );
-        },
-      ).toList(),
-      answers: (question['Question']['answers'] as List).map(
-        (response) {
-          return Response(
-            statement: response['statement'],
-            score: response['score'] as int,
-            onSelect: () => onSelect(response['score'] as int),
-          );
-        },
-      ).toList(),
+  List<dynamic> filterQuestions(listQuestions) {
+    Map<String, bool> allSelected = Map.fromEntries(
+      selected.entries.where((entry) => entry.value == true),
     );
+
+    totalSelectedTopics = allSelected.length;
+
+    List listSelectedQuestions = listQuestions.where((question) {
+      return allSelected.containsKey(question["Question"]["topic"]);
+    }).toList();
+
+    listSelectedQuestions = listSelectedQuestions.sublist(
+      0,
+      (totalQuestionsController > listSelectedQuestions.length)
+          ? listSelectedQuestions.length
+          : totalQuestionsController,
+    );
+
+    return listSelectedQuestions;
   }
 
   @override
   Widget build(BuildContext context) {
+    refresh();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.primary,
@@ -135,7 +174,13 @@ class _MenuState extends State<Menu> {
       ),
       body: start
           ? fillCompleted
-              ? Questionnaire()
+              ? Questionnaire(
+                  idQuestion: idQuestion,
+                  totalScore: totalScore,
+                  totalQuestions: totalSelectedQuestions,
+                  questions: selectedQuestions,
+                  onSelect: onSelect,
+                )
               : Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Column(
@@ -147,41 +192,65 @@ class _MenuState extends State<Menu> {
                           horizontal: 5,
                           vertical: 5,
                         ),
-                        child: Text(
-                          "Quantidade de perguntas:",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                            color: Theme.of(context).colorScheme.primary,
-                          ),
-                        ),
-                      ),
-                      TextField(
-                        controller: total,
-                        textAlign: TextAlign.center,
-                        keyboardType: TextInputType.number,
-                        decoration: InputDecoration(
-                          hintText: "Digite a quantidade de perguntas",
-                          border: OutlineInputBorder(),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Quantidade de perguntas:",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                            ),
+                            const SizedBox(
+                              width: 100,
+                            ),
+                            Expanded(
+                              child: TextField(
+                                controller: totalController,
+                                onChanged: (value) {
+                                  setState(() {
+                                    totalQuestionsController =
+                                        value.isNotEmpty ? int.parse(value) : 0;
+                                    refresh();
+                                  });
+                                },
+                                textAlign: TextAlign.center,
+                                keyboardType: TextInputType.number,
+                                decoration: InputDecoration(
+                                  hintText: "Total de perguntas.",
+                                  border: OutlineInputBorder(),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(
                           horizontal: 5,
-                          vertical: 10,
+                          vertical: 0,
                         ),
-                        child: Text(
-                          "Selecione os tópicos:",
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                            color: Theme.of(context).colorScheme.primary,
-                          ),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Selecione os tópicos:",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                            ),
+                            Spacer(),
+                            TextButton(
+                              onPressed: () => onAll(allSelected),
+                              child: Text('Todos'),
+                            ),
+                          ],
                         ),
                       ),
                       Expanded(
-                        child: loadingCompleted
+                        child: loadingComplete
                             ? ListView.builder(
                                 itemCount: topics.length,
                                 itemBuilder: (context, index) {
@@ -201,7 +270,9 @@ class _MenuState extends State<Menu> {
                                     onChanged: (bool? value) {
                                       setState(
                                         () {
-                                          selected[topic] = value ?? false;
+                                          selected[topic] =
+                                              value ?? defaultSelectController;
+                                          refresh();
                                         },
                                       );
                                     },
@@ -219,14 +290,15 @@ class _MenuState extends State<Menu> {
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Perguntas Disponíveis: $totalQuestions",
+                            Text(
+                                "Perguntas Disponíveis: $totalQuestions/$totalSelectedQuestions",
                                 style: TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
                                   color: Theme.of(context).colorScheme.primary,
                                 )),
                             Text(
-                              "Tópicos Disponíveis: $totalQuestions",
+                              "Tópicos Disponíveis: ${topics.length}/$totalSelectedTopics",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -252,7 +324,7 @@ class _MenuState extends State<Menu> {
       floatingActionButton: start
           ? fillCompleted
               ? FloatingActionButton(
-                  onPressed: onRestart,
+                  onPressed: () => onRestart(defaultCacheController),
                   tooltip: 'restart',
                   backgroundColor: Theme.of(context).colorScheme.primary,
                   child: Icon(
@@ -261,16 +333,18 @@ class _MenuState extends State<Menu> {
                     size: 40,
                   ),
                 )
-              : FloatingActionButton(
-                  onPressed: onNext,
-                  tooltip: 'start',
-                  backgroundColor: Theme.of(context).colorScheme.primary,
-                  child: Icon(
-                    Icons.play_arrow,
-                    color: Colors.white,
-                    size: 40,
-                  ),
-                )
+              : (totalSelectedQuestions > 0) & (totalSelectedTopics > 0)
+                  ? FloatingActionButton(
+                      onPressed: onNext,
+                      tooltip: 'next',
+                      backgroundColor: Theme.of(context).colorScheme.primary,
+                      child: Icon(
+                        Icons.play_arrow,
+                        color: Colors.white,
+                        size: 40,
+                      ),
+                    )
+                  : null
           : FloatingActionButton(
               onPressed: onStart,
               tooltip: 'start',

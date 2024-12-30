@@ -9,6 +9,7 @@ Depois de responder a todas as perguntas, o app calcula sua pontuação e a cate
 ## 📜 **Funcionalidades**
 
 - 📝 **Perguntas dinâmicas** com dicas e opções de respostas.
+- 🧩 **Filtro de perguntas** que permite selecionar tópicos de perguntas.
 - 🧮 **Cálculo de pontuação** com base nas respostas do usuário.
 - 🏆 **Categorização da pontuação** com ícones e descrições divertidas:
 
@@ -22,11 +23,11 @@ Depois de responder a todas as perguntas, o app calcula sua pontuação e a cate
 
 Dependendo do seu desempenho, sua pontuação será categorizada de acordo com os seguintes critérios:
 
-- **🌟 Jedi (Mestre da Força)**: Pontuação **maior ou igual a 90**. Você é um mestre da Força e sabe tudo!
-- **⚡ Super Saiyajin (Poder Infinito)**: Pontuação entre **70 e 89**. Seu poder está em ascensão e você é quase invencível!
-- **🛡️ Vingador (Herói Cauteloso)**: Pontuação entre **50 e 69**. Você é um herói, mas ainda há muito a aprender.
-- **🌍 Explorador Espacial (Aventuras Intergalácticas)**: Pontuação entre **30 e 49**. Você está começando sua jornada e explorando o universo!
-- **⏳ Iniciado (Missão em Andamento)**: Pontuação **abaixo de 30**. A missão está apenas começando, continue se esforçando!
+- **🌟 Jedi (Mestre da Força)**: Pontuação **maior ou igual a 90%**. Você é um mestre da Força e sabe tudo!
+- **⚡ Super Saiyajin (Poder Infinito)**: Pontuação entre **70% e 89%**. Seu poder está em ascensão e você é quase invencível!
+- **🛡️ Vingador (Herói Cauteloso)**: Pontuação entre **50% e 69%**. Você é um herói, mas ainda há muito a aprender.
+- **🌍 Explorador Espacial (Aventuras Intergalácticas)**: Pontuação entre **30% e 49%**. Você está começando sua jornada e explorando o universo!
+- **⏳ Iniciado (Missão em Andamento)**: Pontuação **abaixo de 30%**. A missão está apenas começando, continue se esforçando!
 
 ## 🔧 **Tecnologias Usadas**
 
@@ -38,10 +39,11 @@ Dependendo do seu desempenho, sua pontuação será categorizada de acordo com o
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seuusuario/flutter-quiz-app.git
+   git clone https://github.com/thiagoamparo/Estudei.git
     ```
 2. **Navegue até o diretório do projeto**:
    ```bash
+   cd Flutter
    cd quiz
     ```
 3. **Instale as dependências**:

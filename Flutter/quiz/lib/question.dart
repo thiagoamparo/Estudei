@@ -25,6 +25,17 @@ class _QuestionState extends State<Question> {
   int idClue = 0;
   bool clue = false;
 
+  @override
+  void initState() {
+    super.initState();
+    setState(
+      () {
+        widget.answers.shuffle();
+        widget.clues.shuffle();
+      },
+    );
+  }
+
   void toggleClues() {
     setState(
       () {
@@ -105,7 +116,7 @@ class _QuestionState extends State<Question> {
             ],
           ),
         ),
-        ...widget.answers..shuffle(),
+        ...widget.answers,
       ],
     );
   }

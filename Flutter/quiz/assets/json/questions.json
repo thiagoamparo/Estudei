@@ -189,6 +189,1707 @@
           {"statement": "John Adams", "score": 1}
         ]
       }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o elemento químico mais abundante na crosta terrestre?",
+        "topic": "Química",
+        "clues": [
+          {"statement": "É um metal."},
+          {"statement": "É usado em ligas metálicas e na construção de aviões."},
+          {"statement": "É o terceiro elemento mais abundante no universo."},
+          {"statement": "Tem o símbolo Al."},
+          {"statement": "É encontrado em forma de óxido na crosta terrestre."}
+        ],
+        "answers": [
+          {"statement": "Alumínio", "score": 10},
+          {"statement": "Cálcio", "score": 5},
+          {"statement": "Silício", "score": 3},
+          {"statement": "Ferro", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o autor de \"O Senhor dos Anéis\"?",
+        "topic": "Literatura",
+        "clues": [
+          {"statement": "O autor era britânico."},
+          {"statement": "Ele também escreveu \"O Hobbit\"."},
+          {"statement": "Ele foi professor de literatura inglesa."},
+          {"statement": "A obra foi publicada em três volumes entre 1954 e 1955."},
+          {"statement": "Seu nome completo é John Ronald Reuel Tolkien."}
+        ],
+        "answers": [
+          {"statement": "J.R.R. Tolkien", "score": 10},
+          {"statement": "C.S. Lewis", "score": 5},
+          {"statement": "George R.R. Martin", "score": 3},
+          {"statement": "J.K. Rowling", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior deserto do mundo?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Este deserto é quente e seco."},
+          {"statement": "Ele cobre a maior parte do norte da África."},
+          {"statement": "Seu nome é associado a uma cor de areia."},
+          {"statement": "É o maior deserto quente do mundo."},
+          {"statement": "Este deserto se estende por vários países, incluindo o Egito e a Líbia."}
+        ],
+        "answers": [
+          {"statement": "Deserto do Saara", "score": 10},
+          {"statement": "Deserto de Gobi", "score": 5},
+          {"statement": "Deserto de Kalahari", "score": 3},
+          {"statement": "Deserto de Atacama", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior rio do mundo?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Ele atravessa vários países da América do Sul."},
+          {"statement": "Seu comprimento é superior a 7.000 quilômetros."},
+          {"statement": "Ele deságua no Oceano Atlântico."},
+          {"statement": "Ele é famoso por suas grandes bacias hidrográficas."},
+          {"statement": "Seu nome é associado a um deus."}
+        ],
+        "answers": [
+          {"statement": "Rio Amazonas", "score": 10},
+          {"statement": "Rio Nilo", "score": 5},
+          {"statement": "Rio Yangtzé", "score": 3},
+          {"statement": "Rio Mississipi", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Quem foi o autor de 'A Moreninha'?",
+        "topic": "Literatura",
+        "clues": [
+          {"statement": "O autor era um brasileiro do século XIX."},
+          {"statement": "Ele foi um dos principais representantes do romantismo no Brasil."},
+          {"statement": "Seu nome também é associado à literatura de folhetins."},
+          {"statement": "Seu nome começa com 'Joaquim'."},
+          {"statement": "A obra foi publicada em 1844."}
+        ],
+        "answers": [
+          {"statement": "Joaquim Manuel de Macedo", "score": 10},
+          {"statement": "José de Alencar", "score": 5},
+          {"statement": "Machado de Assis", "score": 3},
+          {"statement": "Aluísio Azevedo", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual o maior deserto do mundo?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Este deserto é na maior parte coberto por gelo."},
+          {"statement": "Ele cobre a maior parte da Antártida."},
+          {"statement": "É o deserto mais frio do planeta."},
+          {"statement": "Fica localizado no hemisfério sul."},
+          {"statement": "É considerado o deserto mais seco."}
+        ],
+        "answers": [
+          {"statement": "Deserto da Antártida", "score": 10},
+          {"statement": "Deserto do Saara", "score": 5},
+          {"statement": "Deserto de Gobi", "score": 3},
+          {"statement": "Deserto de Kalahari", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o inventor da lâmpada elétrica?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele também é famoso por suas inovações no campo da eletricidade."},
+          {"statement": "Seu nome é associado a uma empresa de eletrônicos."},
+          {"statement": "Ele nasceu nos Estados Unidos."},
+          {"statement": "Ele tem mais de 1.000 patentes em seu nome."},
+          {"statement": "Seu nome começa com 'Thomas'."}
+        ],
+        "answers": [
+          {"statement": "Thomas Edison", "score": 10},
+          {"statement": "Nikola Tesla", "score": 5},
+          {"statement": "Alexander Graham Bell", "score": 3},
+          {"statement": "Michael Faraday", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o rio mais longo do mundo?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Ele atravessa vários países da África."},
+          {"statement": "Seu nome começa com a letra 'N'."},
+          {"statement": "O rio é muito importante para a agricultura e transporte."},
+          {"statement": "Ele deságua no Mediterrâneo."},
+          {"statement": "É o segundo maior sistema fluvial do mundo."}
+        ],
+        "answers": [
+          {"statement": "Rio Nilo", "score": 10},
+          {"statement": "Rio Amazonas", "score": 5},
+          {"statement": "Rio Yangtze", "score": 3},
+          {"statement": "Rio Mississippi", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior animal terrestre?",
+        "topic": "Ciências",
+        "clues": [
+          {"statement": "Este animal pode pesar até 6 toneladas."},
+          {"statement": "Ele tem grandes orelhas e uma tromba."},
+          {"statement": "É herbívoro."},
+          {"statement": "Habita principalmente as savanas da África."},
+          {"statement": "É conhecido por sua grande memória."}
+        ],
+        "answers": [
+          {"statement": "Elefante africano", "score": 10},
+          {"statement": "Girafa", "score": 5},
+          {"statement": "Hipopótamo", "score": 3},
+          {"statement": "Rinoceronte", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem descobriu a penicilina?",
+        "topic": "Ciências",
+        "clues": [
+          {"statement": "Ele foi um médico e bacteriologista."},
+          {"statement": "O nome dele começa com 'Alexander'."},
+          {"statement": "Ele fez sua descoberta por acidente em 1928."},
+          {"statement": "Sua descoberta revolucionou o tratamento de infecções."},
+          {"statement": "Ele era britânico."}
+        ],
+        "answers": [
+          {"statement": "Alexander Fleming", "score": 10},
+          {"statement": "Louis Pasteur", "score": 5},
+          {"statement": "Gregor Mendel", "score": 3},
+          {"statement": "Marie Curie", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a capital da Austrália?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Essa cidade não é a maior do país."},
+          {"statement": "Fica localizada no território da capital australiana."},
+          {"statement": "É conhecida por seus edifícios modernos."},
+          {"statement": "A cidade foi planejada para ser a capital."},
+          {"statement": "Fica entre Sydney e Melbourne."}
+        ],
+        "answers": [
+          {"statement": "Canberra", "score": 10},
+          {"statement": "Sydney", "score": 5},
+          {"statement": "Melbourne", "score": 3},
+          {"statement": "Brisbane", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o primeiro homem a pisar na Lua?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele disse: 'Um pequeno passo para um homem, um grande salto para a humanidade.'"},
+          {"statement": "Ele era astronauta da NASA."},
+          {"statement": "A missão foi Apollo 11."},
+          {"statement": "Ele foi acompanhado por Buzz Aldrin."},
+          {"statement": "O evento aconteceu em 1969."}
+        ],
+        "answers": [
+          {"statement": "Neil Armstrong", "score": 10},
+          {"statement": "Buzz Aldrin", "score": 5},
+          {"statement": "Michael Collins", "score": 3},
+          {"statement": "Yuri Gagarin", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o elemento químico representado pelo símbolo 'Na'?",
+        "topic": "Química",
+        "clues": [
+          {"statement": "Este elemento é um metal alcalino."},
+          {"statement": "É muito utilizado na produção de sabão."},
+          {"statement": "É encontrado em abundância no sal de cozinha."},
+          {"statement": "Em sua forma pura, é altamente reativo."},
+          {"statement": "É o 11º elemento da tabela periódica."}
+        ],
+        "answers": [
+          {"statement": "Sódio", "score": 10},
+          {"statement": "Potássio", "score": 5},
+          {"statement": "Lítio", "score": 3},
+          {"statement": "Cálcio", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a capital do Japão?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "É uma das cidades mais populosas do mundo."},
+          {"statement": "É famosa por sua arquitetura moderna e tradicional."},
+          {"statement": "O Monte Fuji fica próximo dessa cidade."},
+          {"statement": "Fica na ilha de Honshu."},
+          {"statement": "É uma das cidades mais avançadas em tecnologia."}
+        ],
+        "answers": [
+          {"statement": "Tóquio", "score": 10},
+          {"statement": "Quioto", "score": 5},
+          {"statement": "Osaka", "score": 3},
+          {"statement": "Hiroshima", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Qual é o maior continente do mundo?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Este continente possui a maior população."},
+          {"statement": "É o lar de países como China, Índia e Rússia."},
+          {"statement": "O deserto de Gobi está localizado neste continente."},
+          {"statement": "A maior parte deste continente está na Ásia."},
+          {"statement": "Ele é o lar da maior parte da economia global."}
+        ],
+        "answers": [
+          {"statement": "Ásia", "score": 10},
+          {"statement": "África", "score": 5},
+          {"statement": "América", "score": 3},
+          {"statement": "Europa", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior animal marinho?",
+        "topic": "Ciências",
+        "clues": [
+          {"statement": "Este animal pode atingir até 30 metros de comprimento."},
+          {"statement": "É um mamífero marinho."},
+          {"statement": "Tem uma alimentação baseada em plâncton."},
+          {"statement": "Está presente em oceanos de todo o mundo."},
+          {"statement": "É conhecido por sua grande língua e boca."}
+        ],
+        "answers": [
+          {"statement": "Baleia azul", "score": 10},
+          {"statement": "Baleia jubarte", "score": 5},
+          {"statement": "Golfinho", "score": 3},
+          {"statement": "Tubarão branco", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Em que ano o Brasil proclamou sua independência?",
+        "topic": "História",
+        "clues": [
+          {"statement": "O evento aconteceu no início do século XIX."},
+          {"statement": "A independência foi proclamada por Dom Pedro I."},
+          {"statement": "O famoso grito foi: 'Independência ou Morte!.'"},
+          {"statement": "Foi um evento marcante para a história do país."},
+          {"statement": "O evento ocorreu no Brasil e não em Portugal."}
+        ],
+        "answers": [
+          {"statement": "1822", "score": 10},
+          {"statement": "1889", "score": 5},
+          {"statement": "1865", "score": 3},
+          {"statement": "1900", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do principal satélite natural da Terra?",
+        "topic": "Ciências",
+        "clues": [
+          {"statement": "Este satélite é visível a olho nu da Terra."},
+          {"statement": "Ele é o responsável pelas marés no planeta."},
+          {"statement": "Seu nome é associado à deusa romana da lua."},
+          {"statement": "Ele tem um grande impacto na vida na Terra."},
+          {"statement": "É o único satélite natural da Terra."}
+        ],
+        "answers": [
+          {"statement": "Lua", "score": 10},
+          {"statement": "Fobos", "score": 5},
+          {"statement": "Europa", "score": 3},
+          {"statement": "Titã", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior rio do Brasil?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Este rio atravessa o norte do país."},
+          {"statement": "Seu nome é associado a uma floresta tropical."},
+          {"statement": "É conhecido por ser o maior em volume de água."},
+          {"statement": "O rio é fundamental para a navegação e transporte."},
+          {"statement": "Ele se encontra no estado do Amazonas."}
+        ],
+        "answers": [
+          {"statement": "Rio Amazonas", "score": 10},
+          {"statement": "Rio Paraná", "score": 5},
+          {"statement": "Rio São Francisco", "score": 3},
+          {"statement": "Rio Tocantins", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a moeda oficial da União Europeia?",
+        "topic": "Economia",
+        "clues": [
+          {"statement": "Essa moeda é utilizada por 19 dos 27 países da União Europeia."},
+          {"statement": "Ela tem uma taxa de câmbio flutuante."},
+          {"statement": "Seu nome começa com a letra 'E'."},
+          {"statement": "Foi introduzida em 2002."},
+          {"statement": "Ela é uma das moedas mais negociadas do mundo."}
+        ],
+        "answers": [
+          {"statement": "Euro", "score": 10},
+          {"statement": "Libra Esterlina", "score": 5},
+          {"statement": "Franco Suíço", "score": 3},
+          {"statement": "Dólar Americano", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a primeira letra do alfabeto grego?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Esta letra é semelhante à letra 'A' do alfabeto latino."},
+          {"statement": "Ela é usada para representar a constante matemática 'alpha'."},
+          {"statement": "Ela é a primeira letra em muitos sistemas de notação."},
+          {"statement": "Essa letra é muito usada em ciências e matemática."},
+          {"statement": "Ela é frequentemente usada para representar ângulos."}
+        ],
+        "answers": [
+          {"statement": "Alfa", "score": 10},
+          {"statement": "Beta", "score": 5},
+          {"statement": "Gamma", "score": 3},
+          {"statement": "Delta", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o autor de 'O Primo Basílio'?",
+        "topic": "Literatura",
+        "clues": [
+          {"statement": "Este autor brasileiro foi um dos principais nomes do realismo."},
+          {"statement": "Ele também escreveu 'Dom Casmurro'."},
+          {"statement": "Seu nome começa com 'Machado'."},
+          {"statement": "Seu estilo de escrita é caracterizado por uma crítica social."},
+          {"statement": "A obra foi publicada em 1878."}
+        ],
+        "answers": [
+          {"statement": "José de Alencar", "score": 10},
+          {"statement": "Aluísio Azevedo", "score": 5},
+          {"statement": "Machado de Assis", "score": 3},
+          {"statement": "Raul Pompeia", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual foi o primeiro país a conquistar a independência na América Latina?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Este país está localizado ao norte da América do Sul."},
+          {"statement": "A independência foi proclamada em 1804."},
+          {"statement": "Este país foi colonizado pela França."},
+          {"statement": "O evento foi liderado por Toussaint Louverture."},
+          {"statement": "Este país é conhecido por ser o primeiro estado negro independente."}
+        ],
+        "answers": [
+          {"statement": "Haiti", "score": 10},
+          {"statement": "Argentina", "score": 5},
+          {"statement": "Colômbia", "score": 3},
+          {"statement": "México", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem escreveu 'O Pequeno Príncipe'?",
+        "topic": "Literatura",
+        "clues": [
+          {"statement": "Este autor era francês."},
+          {"statement": "Ele também foi piloto de avião."},
+          {"statement": "A obra foi publicada em 1943."},
+          {"statement": "O autor é conhecido por suas fábulas e histórias infantis."},
+          {"statement": "A história é sobre um príncipe que viaja por vários planetas."}
+        ],
+        "answers": [
+          {"statement": "Antoine de Saint-Exupéry", "score": 10},
+          {"statement": "Victor Hugo", "score": 5},
+          {"statement": "Marcel Proust", "score": 3},
+          {"statement": "Émile Zola", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Quem foi o criador da linguagem de programação Python?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "O criador é uma pessoa de nacionalidade holandesa."},
+          {"statement": "Ele também trabalhou na criação da linguagem de programação ABC."},
+          {"statement": "O nome da linguagem foi inspirado em um programa de TV."},
+          {"statement": "Ele fundou a empresa de software chamada 'Python Software Foundation'."},
+          {"statement": "A linguagem é muito usada em ciência de dados e inteligência artificial."}
+        ],
+        "answers": [
+          {"statement": "Guido van Rossum", "score": 10},
+          {"statement": "Dennis Ritchie", "score": 5},
+          {"statement": "James Gosling", "score": 3},
+          {"statement": "Bjarne Stroustrup", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o time mais vitorioso na história da Copa do Mundo de Futebol?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "Este país venceu o torneio cinco vezes."},
+          {"statement": "A seleção é famosa por suas cores amarelas e verdes."},
+          {"statement": "O time é conhecido como 'Seleção Canarinho'."},
+          {"statement": "O país é o maior vencedor da história da competição."},
+          {"statement": "O nome do país é o mesmo de um continente."}
+        ],
+        "answers": [
+          {"statement": "Brasil", "score": 10},
+          {"statement": "Alemanha", "score": 5},
+          {"statement": "Itália", "score": 3},
+          {"statement": "Argentina", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem é conhecido como o 'Rei do Pop'?",
+        "topic": "Música",
+        "clues": [
+          {"statement": "Ele ficou famoso por sua dança e o 'moonwalk'."},
+          {"statement": "Seu álbum 'Thriller' é o mais vendido de todos os tempos."},
+          {"statement": "Ele é um dos artistas mais premiados da história."},
+          {"statement": "Ele tem uma enorme contribuição para a música pop."},
+          {"statement": "Ele nasceu nos Estados Unidos, no estado de Indiana."}
+        ],
+        "answers": [
+          {"statement": "Michael Jackson", "score": 10},
+          {"statement": "Elvis Presley", "score": 5},
+          {"statement": "Prince", "score": 3},
+          {"statement": "Madonna", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "O que é a inteligência artificial?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ela envolve a criação de sistemas capazes de aprender e tomar decisões."},
+          {"statement": "É usada em áreas como reconhecimento de voz e análise de dados."},
+          {"statement": "A IA é dividida em duas grandes áreas: IA fraca e IA forte."},
+          {"statement": "Algoritmos de aprendizado de máquina são um exemplo de IA."},
+          {"statement": "Ela pode ser aplicada em carros autônomos, por exemplo."}
+        ],
+        "answers": [
+          {"statement": "Inteligência Artificial", "score": 10},
+          {"statement": "Algoritmo", "score": 5},
+          {"statement": "Processamento de Dados", "score": 3},
+          {"statement": "Big Data", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior planeta do sistema solar?",
+        "topic": "Ciências",
+        "clues": [
+          {"statement": "Este planeta é conhecido por sua Grande Mancha Vermelha."},
+          {"statement": "Ele é um gigante gasoso."},
+          {"statement": "Possui dezenas de luas, incluindo Ganimedes."},
+          {"statement": "Este planeta foi nomeado após um deus da mitologia romana."},
+          {"statement": "Ele é o quinto planeta a partir do Sol."}
+        ],
+        "answers": [
+          {"statement": "Júpiter", "score": 10},
+          {"statement": "Saturno", "score": 5},
+          {"statement": "Urano", "score": 3},
+          {"statement": "Netuno", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a primeira linguagem de programação criada?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "A linguagem foi criada na década de 1950."},
+          {"statement": "Ela foi desenvolvida por John Backus."},
+          {"statement": "Ela foi projetada para ser usada na IBM."},
+          {"statement": "Seu nome é uma abreviação de 'Fortran'."},
+          {"statement": "Foi uma das primeiras linguagens de alto nível."}
+        ],
+        "answers": [
+          {"statement": "Fortran", "score": 10},
+          {"statement": "Lisp", "score": 5},
+          {"statement": "COBOL", "score": 3},
+          {"statement": "C", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o primeiro homem a viajar no espaço?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele era um cosmonauta soviético."},
+          {"statement": "Seu voo durou 108 minutos."},
+          {"statement": "Ele foi lançado ao espaço a bordo da Vostok 1."},
+          {"statement": "O voo aconteceu em 12 de abril de 1961."},
+          {"statement": "Ele se tornou um herói nacional na União Soviética."}
+        ],
+        "answers": [
+          {"statement": "Yuri Gagarin", "score": 10},
+          {"statement": "Neil Armstrong", "score": 5},
+          {"statement": "Valentina Tereshkova", "score": 3},
+          {"statement": "Buzz Aldrin", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da maior rede social do mundo?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ela foi criada por Mark Zuckerberg."},
+          {"statement": "A plataforma permite que os usuários compartilhem fotos, vídeos e atualizações."},
+          {"statement": "O logotipo da empresa é um 'F' branco sobre fundo azul."},
+          {"statement": "A plataforma foi lançada em 2004."},
+          {"statement": "Ela tem mais de 2 bilhões de usuários ativos."}
+        ],
+        "answers": [
+          {"statement": "Facebook", "score": 10},
+          {"statement": "Instagram", "score": 5},
+          {"statement": "Twitter", "score": 3},
+          {"statement": "LinkedIn", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior estádio de futebol do Brasil?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "Este estádio está localizado em São Paulo."},
+          {"statement": "Ele é conhecido como 'O Caldeirão do Povo'."},
+          {"statement": "O nome do estádio está relacionado a um clube paulista."},
+          {"statement": "Este estádio foi inaugurado em 1960."},
+          {"statement": "Ele tem capacidade para mais de 45 mil pessoas."}
+        ],
+        "answers": [
+          {"statement": "Estádio do Maracanã", "score": 10},
+          {"statement": "Estádio do Morumbi", "score": 5},
+          {"statement": "Estádio do Mineirão", "score": 3},
+          {"statement": "Estádio Beira-Rio", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Quem é o super-herói da Marvel conhecido como o 'Homem de Ferro'?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ele é um bilionário inventivo."},
+          {"statement": "Seu verdadeiro nome é Tony Stark."},
+          {"statement": "Ele é um dos membros fundadores dos Vingadores."},
+          {"statement": "Ele usa uma armadura de alta tecnologia."},
+          {"statement": "Seu filme solo foi lançado em 2008."}
+        ],
+        "answers": [
+          {"statement": "Homem de Ferro", "score": 10},
+          {"statement": "Capitão América", "score": 5},
+          {"statement": "Thor", "score": 3},
+          {"statement": "Hulk", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do famoso mago da série de livros e filmes 'Harry Potter'?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ele é o protagonista da história."},
+          {"statement": "Seu sobrenome é o mesmo de um famoso vilão."},
+          {"statement": "Ele é conhecido por ser o 'Escolhido'."},
+          {"statement": "Ele estuda na escola de magia Hogwarts."},
+          {"statement": "Seu nome completo é Harry James Potter."}
+        ],
+        "answers": [
+          {"statement": "Harry Potter", "score": 10},
+          {"statement": "Ron Weasley", "score": 5},
+          {"statement": "Hermione Granger", "score": 3},
+          {"statement": "Albus Dumbledore", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Em que filme do Universo Cinematográfico Marvel (MCU) o personagem 'Pantera Negra' faz sua primeira aparição?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "O filme foi lançado em 2016."},
+          {"statement": "O personagem é interpretado por Chadwick Boseman."},
+          {"statement": "O filme apresenta a cidade de Wakanda."},
+          {"statement": "O protagonista é um príncipe que se torna um super-herói."},
+          {"statement": "O herói principal é parte da equipe dos Vingadores."}
+        ],
+        "answers": [
+          {"statement": "Capitão América: Guerra Civil", "score": 10},
+          {"statement": "Pantera Negra", "score": 5},
+          {"statement": "Vingadores: A Era de Ultron", "score": 3},
+          {"statement": "Thor: Ragnarok", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do videogame que apresenta personagens como Mario, Luigi e Bowser?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "É um dos videogames mais populares do mundo."},
+          {"statement": "O jogo foi criado pela Nintendo."},
+          {"statement": "O personagem principal é um encanador italiano."},
+          {"statement": "O objetivo é salvar a Princesa Peach."},
+          {"statement": "O jogo tem várias versões, incluindo corridas e esportes."}
+        ],
+        "answers": [
+          {"statement": "Super Mario", "score": 10},
+          {"statement": "Donkey Kong", "score": 5},
+          {"statement": "The Legend of Zelda", "score": 3},
+          {"statement": "Sonic the Hedgehog", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual série de TV apresenta um mundo fictício baseado em um jogo de tabuleiro, onde os personagens competem por um trono de ferro?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "A série foi baseada nos livros de George R.R. Martin."},
+          {"statement": "A trama se passa nos continentes fictícios de Westeros e Essos."},
+          {"statement": "A série é conhecida por suas reviravoltas e mortes inesperadas."},
+          {"statement": "O título da série é o mesmo do objeto que é o símbolo de poder."},
+          {"statement": "A série foi transmitida pela HBO."}
+        ],
+        "answers": [
+          {"statement": "Game of Thrones", "score": 10},
+          {"statement": "The Witcher", "score": 5},
+          {"statement": "Vikings", "score": 3},
+          {"statement": "Breaking Bad", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o cantor pop conhecido como 'Rei do Pop' que faleceu em 2009?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ele ficou famoso por sua dança e o 'moonwalk'."},
+          {"statement": "Seu álbum 'Thriller' é o mais vendido de todos os tempos."},
+          {"statement": "Ele foi um dos artistas mais premiados da história."},
+          {"statement": "Ele começou sua carreira ainda jovem, com os Jackson 5."},
+          {"statement": "Seu nome é Michael Jackson."}
+        ],
+        "answers": [
+          {"statement": "Michael Jackson", "score": 10},
+          {"statement": "Elvis Presley", "score": 5},
+          {"statement": "Prince", "score": 3},
+          {"statement": "Madonna", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Em qual série animada os personagens principais são chamados de Homer, Marge, Bart, Lisa e Maggie?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "A série é uma das mais longas da história da TV."},
+          {"statement": "Os personagens moram na cidade fictícia de Springfield."},
+          {"statement": "A série é uma sátira da cultura americana."},
+          {"statement": "O personagem principal trabalha em uma usina nuclear."},
+          {"statement": "O criador da série é Matt Groening."}
+        ],
+        "answers": [
+          {"statement": "Os Simpsons", "score": 10},
+          {"statement": "Futurama", "score": 5},
+          {"statement": "Family Guy", "score": 3},
+          {"statement": "South Park", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do famoso brinquedo de blocos de montar criado na Dinamarca?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Os blocos podem ser usados para construir diversos tipos de estruturas."},
+          {"statement": "O nome do brinquedo é também uma marca registrada."},
+          {"statement": "Foi criado pela empresa LEGO."},
+          {"statement": "Os blocos possuem encaixes que permitem a construção de modelos complexos."},
+          {"statement": "A marca também tem filmes e videogames baseados em seus brinquedos."}
+        ],
+        "answers": [
+          {"statement": "LEGO", "score": 10},
+          {"statement": "Playmobil", "score": 5},
+          {"statement": "Meccano", "score": 3},
+          {"statement": "K'NEX", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da franquia de filmes que apresenta um grupo de aventureiros conhecidos como 'Vingadores'?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Os personagens principais são super-heróis com habilidades especiais."},
+          {"statement": "A franquia é parte do Universo Cinematográfico Marvel."},
+          {"statement": "Os filmes apresentam vilões como Thanos."},
+          {"statement": "O Capitão América e o Homem de Ferro são dois dos principais personagens."},
+          {"statement": "O primeiro filme da franquia foi lançado em 2012."}
+        ],
+        "answers": [
+          {"statement": "Vingadores", "score": 10},
+          {"statement": "X-Men", "score": 5},
+          {"statement": "Homem-Aranha", "score": 3},
+          {"statement": "Os Incríveis", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da franquia de filmes sobre um grupo de dinossauros criados em um parque temático?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "O filme foi dirigido por Steven Spielberg."},
+          {"statement": "A trama envolve um parque onde dinossauros são clonados."},
+          {"statement": "O primeiro filme foi lançado em 1993."},
+          {"statement": "O filme é baseado no livro de Michael Crichton."},
+          {"statement": "O parque se chama Jurassic Park."}
+        ],
+        "answers": [
+          {"statement": "Jurassic Park", "score": 10},
+          {"statement": "King Kong", "score": 5},
+          {"statement": "Godzilla", "score": 3},
+          {"statement": "O Rei Leão", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do famoso herói da DC Comics que luta contra o crime em Gotham City?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ele é conhecido como o 'Cavaleiro das Trevas'."},
+          {"statement": "Ele não tem superpoderes, mas usa tecnologia avançada."},
+          {"statement": "Seu alter ego é Bruce Wayne."},
+          {"statement": "Ele tem um inimigo famoso chamado Coringa."},
+          {"statement": "A série de filmes sobre ele é considerada uma das melhores da DC."}
+        ],
+        "answers": [
+          {"statement": "Batman", "score": 10},
+          {"statement": "Superman", "score": 5},
+          {"statement": "Mulher-Maravilha", "score": 3},
+          {"statement": "Flash", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem é o autor da série 'As Crônicas de Nárnia'?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ele é um autor britânico."},
+          {"statement": "A série é composta por sete livros."},
+          {"statement": "O primeiro livro da série é 'O Leão, a Feiticeira e o Guarda-Roupa'."},
+          {"statement": "O autor também escreveu sobre cristianismo e filosofia."},
+          {"statement": "Seu nome completo é Clive Staples Lewis."}
+        ],
+        "answers": [
+          {"statement": "C.S. Lewis", "score": 10},
+          {"statement": "J.R.R. Tolkien", "score": 5},
+          {"statement": "Philip Pullman", "score": 3},
+          {"statement": "George Orwell", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem é a cantora famosa conhecida pelo hit 'Bad Romance'?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ela tem um estilo extravagante."},
+          {"statement": "Ela é uma das artistas mais bem-sucedidas da era digital."},
+          {"statement": "Ela é conhecida pelo nome artístico Lady Gaga."},
+          {"statement": "Ela também é atriz e já foi indicada ao Oscar."},
+          {"statement": "Ela lançou o álbum 'The Fame Monster'."}
+        ],
+        "answers": [
+          {"statement": "Lady Gaga", "score": 10},
+          {"statement": "Beyoncé", "score": 5},
+          {"statement": "Katy Perry", "score": 3},
+          {"statement": "Adele", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do famoso dragão da franquia de filmes 'O Hobbit' e 'O Senhor dos Anéis'?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "Ele é o principal vilão de 'O Hobbit'."},
+          {"statement": "Ele vive em uma montanha cheia de tesouros."},
+          {"statement": "Seu nome começa com a letra 'S'."},
+          {"statement": "Ele é um dragão que fala."},
+          {"statement": "Ele é derrotado por Bilbo Bolseiro e os anões."}
+        ],
+        "answers": [
+          {"statement": "Smaug", "score": 10},
+          {"statement": "Fafnir", "score": 5},
+          {"statement": "Drogon", "score": 3},
+          {"statement": "Toothless", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da série de TV que apresenta um mundo apocalíptico dominado por zumbis?",
+        "topic": "Cultura Pop",
+        "clues": [
+          {"statement": "A série segue um grupo de sobreviventes."},
+          {"statement": "Ela foi baseada em uma série de quadrinhos."},
+          {"statement": "A trama se passa em um cenário pós-apocalíptico."},
+          {"statement": "Os personagens principais incluem Rick Grimes e Daryl Dixon."},
+          {"statement": "O nome da série é 'The Walking Dead'."}
+        ],
+        "answers": [
+          {"statement": "The Walking Dead", "score": 10},
+          {"statement": "Z Nation", "score": 5},
+          {"statement": "Fear the Walking Dead", "score": 3},
+          {"statement": "Stranger Things", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Qual é o sistema operacional de código aberto, amplamente usado em servidores e dispositivos móveis, que foi desenvolvido por Linus Torvalds?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ele é conhecido por ser altamente configurável."},
+          {"statement": "É popular em servidores e sistemas embarcados."},
+          {"statement": "A versão mobile desse sistema operacional é usada em dispositivos como smartphones."},
+          {"statement": "Ele tem várias distribuições, como Ubuntu e Fedora."},
+          {"statement": "Seu kernel é o mais usado em servidores web."}
+        ],
+        "answers": [
+          {"statement": "Linux", "score": 10},
+          {"statement": "Windows", "score": 5},
+          {"statement": "macOS", "score": 3},
+          {"statement": "Android", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do protocolo de comunicação utilizado na web para transferir dados entre um servidor e um cliente?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ele usa o modelo de requisição-resposta."},
+          {"statement": "É amplamente utilizado para transferir páginas web."},
+          {"statement": "A sigla desse protocolo é HTTP."},
+          {"statement": "Ele pode ser seguro quando utilizado com SSL/TLS."},
+          {"statement": "Sua versão segura é conhecida como HTTPS."}
+        ],
+        "answers": [
+          {"statement": "HTTP", "score": 10},
+          {"statement": "FTP", "score": 5},
+          {"statement": "SMTP", "score": 3},
+          {"statement": "POP3", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a linguagem de programação criada por Guido van Rossum, conhecida por sua sintaxe simples e legibilidade?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ela é muito usada em ciência de dados e inteligência artificial."},
+          {"statement": "Seu nome é inspirado em um grupo de comediantes britânicos."},
+          {"statement": "Ela é amplamente usada no desenvolvimento web e automação."},
+          {"statement": "Uma de suas principais características é ser uma linguagem interpretada."},
+          {"statement": "Ela tem uma grande comunidade e uma vasta biblioteca de pacotes."}
+        ],
+        "answers": [
+          {"statement": "Python", "score": 10},
+          {"statement": "JavaScript", "score": 5},
+          {"statement": "Ruby", "score": 3},
+          {"statement": "C#", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do processo de transformar dados legíveis em um formato ilegível para garantir sua segurança?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ele é essencial em comunicações seguras e armazenamentos de senhas."},
+          {"statement": "Esse processo utiliza algoritmos matemáticos para embaralhar os dados."},
+          {"statement": "A criptografia é amplamente usada em transações financeiras online."},
+          {"statement": "O método reverso é a descriptografia."},
+          {"statement": "Uma das formas mais conhecidas é a criptografia AES."}
+        ],
+        "answers": [
+          {"statement": "Criptografia", "score": 10},
+          {"statement": "Compressão", "score": 5},
+          {"statement": "Codificação", "score": 3},
+          {"statement": "Hashing", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do processo de desenvolvimento de software que envolve ciclos curtos de desenvolvimento e feedback contínuo?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Esse processo é comumente usado em equipes ágeis."},
+          {"statement": "Ele enfatiza entregas frequentes e incrementais."},
+          {"statement": "O método Scrum é um exemplo dessa abordagem."},
+          {"statement": "Esse processo visa aumentar a colaboração entre equipes e clientes."},
+          {"statement": "Ele é frequentemente associado à metodologia ágil."}
+        ],
+        "answers": [
+          {"statement": "Desenvolvimento Ágil", "score": 10},
+          {"statement": "Waterfall", "score": 5},
+          {"statement": "DevOps", "score": 3},
+          {"statement": "V-model", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do framework JavaScript criado para facilitar o desenvolvimento de interfaces de usuário dinâmicas?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ele foi criado pelo Facebook."},
+          {"statement": "Esse framework permite criar componentes reutilizáveis."},
+          {"statement": "O React é amplamente usado para criar aplicações de página única (SPA)."},
+          {"statement": "Ele trabalha com uma virtual DOM para melhorar a performance."},
+          {"statement": "O React é um dos frameworks mais populares para o front-end."}
+        ],
+        "answers": [
+          {"statement": "React", "score": 10},
+          {"statement": "Angular", "score": 5},
+          {"statement": "Vue.js", "score": 3},
+          {"statement": "Svelte", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do sistema de gerenciamento de banco de dados relacional (RDBMS) de código aberto, amplamente utilizado em aplicações web?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ele usa SQL para consultar e manipular dados."},
+          {"statement": "É um dos sistemas mais populares para armazenar dados em tabelas."},
+          {"statement": "O nome desse banco de dados é um animal."},
+          {"statement": "Ele é altamente escalável e confiável."},
+          {"statement": "Seu nome é o mesmo de um sistema de gerenciamento de banco de dados amplamente utilizado em sistemas web."}
+        ],
+        "answers": [
+          {"statement": "MySQL", "score": 10},
+          {"statement": "PostgreSQL", "score": 5},
+          {"statement": "MongoDB", "score": 3},
+          {"statement": "SQLite", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da arquitetura de computação em nuvem que oferece infraestrutura sob demanda, como servidores, armazenamento e redes?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ela permite que as empresas aluguem recursos de computação em vez de comprá-los."},
+          {"statement": "Esse modelo é altamente escalável e flexível."},
+          {"statement": "Os principais provedores desse serviço incluem Amazon, Microsoft e Google."},
+          {"statement": "Ele é amplamente usado para hospedar sites e aplicativos."},
+          {"statement": "O nome desse modelo é IaaS."}
+        ],
+        "answers": [
+          {"statement": "Infraestrutura como Serviço (IaaS)", "score": 10},
+          {"statement": "Plataforma como Serviço (PaaS)", "score": 5},
+          {"statement": "Software como Serviço (SaaS)", "score": 3},
+          {"statement": "Backend como Serviço (BaaS)", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da tecnologia que permite a comunicação sem fio entre dispositivos em uma rede de curto alcance?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ela é frequentemente usada para conectar dispositivos como fones de ouvido e smartphones."},
+          {"statement": "Essa tecnologia opera em frequências de 2,4 GHz e 5 GHz."},
+          {"statement": "Ela é amplamente usada em redes locais para comunicação ponto a ponto."},
+          {"statement": "O nome dessa tecnologia começa com 'B'."},
+          {"statement": "Ela tem um alcance típico de até 100 metros."}
+        ],
+        "answers": [
+          {"statement": "Bluetooth", "score": 10},
+          {"statement": "Wi-Fi", "score": 5},
+          {"statement": "NFC", "score": 3},
+          {"statement": "Zigbee", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do sistema operacional da Apple utilizado em seus smartphones?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Esse sistema operacional é conhecido pela sua interface de usuário intuitiva."},
+          {"statement": "Ele é usado exclusivamente em dispositivos móveis da Apple."},
+          {"statement": "Seu nome é inspirado em frutas."},
+          {"statement": "Esse sistema operacional é conhecido por sua segurança e estabilidade."},
+          {"statement": "Ele é a base do iPhone e do iPad."}
+        ],
+        "answers": [
+          {"statement": "iOS", "score": 10},
+          {"statement": "Android", "score": 5},
+          {"statement": "Windows Phone", "score": 3},
+          {"statement": "BlackBerry OS", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a linguagem de programação desenvolvida pela Microsoft, frequentemente usada para criar aplicativos no Windows?",
+        "topic": "Tecnologia",
+        "clues": [
+          {"statement": "Ela foi criada para ser simples e poderosa."},
+          {"statement": "É uma das linguagens mais populares para o desenvolvimento de aplicativos desktop."},
+          {"statement": "Seu nome é C#."},
+          {"statement": "Ela é usada principalmente com a plataforma .NET."},
+          {"statement": "Ela suporta programação orientada a objetos."}
+        ],
+        "answers": [
+          {"statement": "C#", "score": 10},
+          {"statement": "Visual Basic", "score": 5},
+          {"statement": "Java", "score": 3},
+          {"statement": "Swift", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Quem foi o primeiro imperador de Roma?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele foi um dos mais famosos imperadores do Império Romano."},
+          {"statement": "Seu nome verdadeiro era Gaius Octavius."},
+          {"statement": "Ele foi adotado por Júlio César."},
+          {"statement": "O seu reinado marcou o início do Império Romano."},
+          {"statement": "Ele é conhecido por consolidar o poder e estabelecer a Pax Romana."}
+        ],
+        "answers": [
+          {"statement": "Augusto", "score": 10},
+          {"statement": "Júlio César", "score": 5},
+          {"statement": "Nero", "score": 3},
+          {"statement": "Calígula", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual foi o nome do famoso líder militar e político francês que se tornou imperador e conquistou grande parte da Europa no século XIX?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele foi exilado em uma ilha após sua derrota."},
+          {"statement": "Seu nome completo é Napoleão Bonaparte."},
+          {"statement": "Ele foi uma figura central durante as Guerras Napoleônicas."},
+          {"statement": "Ele foi responsável pela criação do Código Napoleônico."},
+          {"statement": "Ele foi derrotado na Batalha de Waterloo."}
+        ],
+        "answers": [
+          {"statement": "Napoleão Bonaparte", "score": 10},
+          {"statement": "Robespierre", "score": 5},
+          {"statement": "Louis XVI", "score": 3},
+          {"statement": "Charles de Gaulle", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual foi o evento histórico que marcou o início da Segunda Guerra Mundial?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele ocorreu após a invasão de um país europeu."},
+          {"statement": "O país invasor foi a Alemanha."},
+          {"statement": "O país invadido foi a Polônia."},
+          {"statement": "A invasão levou à declaração de guerra pelo Reino Unido e França."},
+          {"statement": "Esse evento aconteceu em 1939."}
+        ],
+        "answers": [
+          {"statement": "Invasão da Polônia", "score": 10},
+          {"statement": "Assinatura do Tratado de Versalhes", "score": 5},
+          {"statement": "Acordo de Munique", "score": 3},
+          {"statement": "Ataque a Pearl Harbor", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o líder da Revolução Russa de 1917 e fundador da União Soviética?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele foi um dos principais ideólogos do marxismo-leninismo."},
+          {"statement": "Seu nome é associado à queda do Império Russo."},
+          {"statement": "Ele foi o líder dos bolcheviques."},
+          {"statement": "Sua vitória na Revolução resultou na criação de um estado socialista."},
+          {"statement": "Ele governou até sua morte em 1924."}
+        ],
+        "answers": [
+          {"statement": "Vladimir Lenin", "score": 10},
+          {"statement": "Joseph Stalin", "score": 5},
+          {"statement": "Leon Trotsky", "score": 3},
+          {"statement": "Nikita Khrushchev", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Em que ano foi assinada a Declaração de Independência dos Estados Unidos?",
+        "topic": "História",
+        "clues": [
+          {"statement": "A declaração foi assinada durante o período de Revolução Americana."},
+          {"statement": "Ela marca a independência das 13 colônias da Grã-Bretanha."},
+          {"statement": "O evento ocorreu em um famoso edifício em Filadélfia."},
+          {"statement": "A data é comemorada anualmente nos Estados Unidos."},
+          {"statement": "Ela foi assinada por 56 representantes das colônias."}
+        ],
+        "answers": [
+          {"statement": "1776", "score": 10},
+          {"statement": "1787", "score": 5},
+          {"statement": "1791", "score": 3},
+          {"statement": "1800", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o líder africano que lutou pela independência de sua nação e se tornou o primeiro presidente de seu país?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele foi o primeiro presidente da Guiné."},
+          {"statement": "Ele foi um dos principais líderes do movimento pan-africanista."},
+          {"statement": "Seu nome completo é Ahmed Sékou Touré."},
+          {"statement": "Ele foi um grande defensor da independência africana."},
+          {"statement": "Ele se tornou presidente após a independência de seu país em 1958."}
+        ],
+        "answers": [
+          {"statement": "Ahmed Sékou Touré", "score": 10},
+          {"statement": "Nelson Mandela", "score": 5},
+          {"statement": "Kwame Nkrumah", "score": 3},
+          {"statement": "Patrice Lumumba", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual foi a principal causa da Primeira Guerra Mundial?",
+        "topic": "História",
+        "clues": [
+          {"statement": "A guerra foi desencadeada após o assassinato de um arquiduque."},
+          {"statement": "O assassinato aconteceu em Sarajevo."},
+          {"statement": "O arquiduque era herdeiro do trono da Áustria-Hungria."},
+          {"statement": "O assassinato gerou uma série de alianças militares e políticas."},
+          {"statement": "A guerra envolveu muitas potências da Europa."}
+        ],
+        "answers": [
+          {"statement": "Assassinato do Arquiduque Francisco Ferdinando", "score": 10},
+          {"statement": "Tratado de Versalhes", "score": 5},
+          {"statement": "Invasão da Bélgica pela Alemanha", "score": 3},
+          {"statement": "Ascensão do Império Otomano", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o líder político que liderou o movimento de descolonização da Índia e é conhecido por sua filosofia de não-violência?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele é famoso por sua luta pacífica pela independência."},
+          {"statement": "Seu nome é Mohandas Karamchand Gandhi."},
+          {"statement": "Ele foi um grande defensor da resistência não violenta."},
+          {"statement": "Ele é conhecido por suas marchas pacíficas e jejuns."},
+          {"statement": "Ele foi preso por sua luta pela independência da Índia."}
+        ],
+        "answers": [
+          {"statement": "Mahatma Gandhi", "score": 10},
+          {"statement": "Jawaharlal Nehru", "score": 5},
+          {"statement": "Subhas Chandra Bose", "score": 3},
+          {"statement": "Indira Gandhi", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual foi o nome do acordo que encerrou a Primeira Guerra Mundial e foi assinado em 1919?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele foi assinado na cidade de Versalhes, na França."},
+          {"statement": "O acordo impôs duras condições à Alemanha."},
+          {"statement": "Esse tratado estabeleceu a Liga das Nações."},
+          {"statement": "Ele visava garantir a paz e evitar futuras guerras."},
+          {"statement": "O tratado foi um dos principais marcos no período pós-guerra."}
+        ],
+        "answers": [
+          {"statement": "Tratado de Versalhes", "score": 10},
+          {"statement": "Tratado de Tordesilhas", "score": 5},
+          {"statement": "Tratado de Paris", "score": 3},
+          {"statement": "Acordo de Munique", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Quem é considerado o maior jogador de futebol de todos os tempos, com mais de 700 gols em sua carreira?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "Ele é argentino e joga no Paris Saint-Germain."},
+          {"statement": "Ele ganhou a Copa do Mundo de 2022 com sua seleção."},
+          {"statement": "Ele é conhecido por seus dribles e habilidade com a bola."},
+          {"statement": "Ele tem múltiplos prêmios Ballon d'Or."},
+          {"statement": "Seu nome é Lionel Messi."}
+        ],
+        "answers": [
+          {"statement": "Lionel Messi", "score": 10},
+          {"statement": "Cristiano Ronaldo", "score": 5},
+          {"statement": "Pelé", "score": 3},
+          {"statement": "Diego Maradona", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual país venceu a Copa do Mundo de Futebol em 2014?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "O evento foi realizado no Brasil."},
+          {"statement": "A final foi contra a Argentina."},
+          {"statement": "A seleção do país vencedor tem um time famoso com estrelas como Thomas Müller e Manuel Neuer."},
+          {"statement": "A seleção vencedora é europeia."},
+          {"statement": "O título foi conquistado após um gol de Mario Götze."}
+        ],
+        "answers": [
+          {"statement": "Alemanha", "score": 10},
+          {"statement": "Brasil", "score": 5},
+          {"statement": "Argentina", "score": 3},
+          {"statement": "França", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual atleta se tornou o mais rápido a completar os 100 metros rasos, com um tempo de 9,58 segundos?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "Ele é jamaicano."},
+          {"statement": "Ele é conhecido como o homem mais rápido do mundo."},
+          {"statement": "Ele conquistou múltiplas medalhas olímpicas."},
+          {"statement": "Seu nome é Usain Bolt."},
+          {"statement": "Ele quebrou o recorde mundial durante o Campeonato Mundial de Atletismo de 2009."}
+        ],
+        "answers": [
+          {"statement": "Usain Bolt", "score": 10},
+          {"statement": "Carl Lewis", "score": 5},
+          {"statement": "Yohan Blake", "score": 3},
+          {"statement": "Michael Johnson", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual esporte é jogado com uma bola redonda e em um campo com duas metas, sendo popular em países como Brasil e Argentina?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "É o esporte mais popular do mundo."},
+          {"statement": "É conhecido como 'futebol' em muitas partes do mundo."},
+          {"statement": "Os times têm 11 jogadores em campo."},
+          {"statement": "A competição mais importante é a Copa do Mundo."},
+          {"statement": "O objetivo é marcar gols no time adversário."}
+        ],
+        "answers": [
+          {"statement": "Futebol", "score": 10},
+          {"statement": "Rugby", "score": 5},
+          {"statement": "Hóquei", "score": 3},
+          {"statement": "Críquete", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual jogador de basquete é conhecido como 'MJ' e é considerado um dos maiores de todos os tempos?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "Ele jogou pela equipe Chicago Bulls."},
+          {"statement": "Ele conquistou 6 títulos da NBA."},
+          {"statement": "Seu número de camisa era 23."},
+          {"statement": "Ele é famoso por suas acrobacias no ar."},
+          {"statement": "Seu nome é Michael Jordan."}
+        ],
+        "answers": [
+          {"statement": "Michael Jordan", "score": 10},
+          {"statement": "LeBron James", "score": 5},
+          {"statement": "Kobe Bryant", "score": 3},
+          {"statement": "Magic Johnson", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual país venceu os Jogos Olímpicos de 2008, realizados em Pequim?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "O país vencedor é o maior vencedor de medalhas de ouro em todas as edições olímpicas."},
+          {"statement": "O país é conhecido por suas estrelas no atletismo, natação e ginástica."},
+          {"statement": "Os Estados Unidos foram o segundo lugar."},
+          {"statement": "Os Jogos ocorreram na China."},
+          {"statement": "O país vencedor é conhecido por sua grande potência esportiva em várias modalidades."}
+        ],
+        "answers": [
+          {"statement": "China", "score": 10},
+          {"statement": "Estados Unidos", "score": 5},
+          {"statement": "Rússia", "score": 3},
+          {"statement": "Alemanha", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Em qual esporte é jogado com uma raquete e uma pequena bola, sendo popular em Wimbledon?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "O esporte é jogado em uma quadra retangular."},
+          {"statement": "O torneio mais famoso é realizado em Londres."},
+          {"statement": "O jogo é praticado entre dois ou quatro jogadores."},
+          {"statement": "Os jogadores devem bater a bola por cima de uma rede."},
+          {"statement": "O esporte é conhecido como tênis."}
+        ],
+        "answers": [
+          {"statement": "Tênis", "score": 10},
+          {"statement": "Pingue-pongue", "score": 5},
+          {"statement": "Badminton", "score": 3},
+          {"statement": "Squash", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o piloto de Fórmula 1 que ganhou 7 campeonatos mundiais, empatando com Michael Schumacher?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "Ele é de nacionalidade britânica."},
+          {"statement": "Ele é considerado um dos maiores pilotos de todos os tempos."},
+          {"statement": "Ele correu pela equipe Mercedes."},
+          {"statement": "Seu nome é Lewis Hamilton."},
+          {"statement": "Ele quebrou vários recordes na Fórmula 1."}
+        ],
+        "answers": [
+          {"statement": "Lewis Hamilton", "score": 10},
+          {"statement": "Michael Schumacher", "score": 5},
+          {"statement": "Sebastian Vettel", "score": 3},
+          {"statement": "Fernando Alonso", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da famosa maratona de 42km realizada anualmente em Boston?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "A maratona é realizada nos Estados Unidos."},
+          {"statement": "Ela é uma das mais antigas do mundo."},
+          {"statement": "O evento atrai corredores de todo o planeta."},
+          {"statement": "É conhecida por sua tradição e desafios para os corredores."},
+          {"statement": "Ela é chamada de Maratona de Boston."}
+        ],
+        "answers": [
+          {"statement": "Maratona de Boston", "score": 10},
+          {"statement": "Maratona de Nova York", "score": 5},
+          {"statement": "Maratona de Chicago", "score": 3},
+          {"statement": "Maratona de Tóquio", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do torneio anual de tênis realizado na Austrália, que é uma das quatro competições do Grand Slam?",
+        "topic": "Esportes",
+        "clues": [
+          {"statement": "O torneio é realizado no mês de janeiro."},
+          {"statement": "Ele é realizado em Melbourne."},
+          {"statement": "É um dos quatro maiores torneios de tênis do mundo."},
+          {"statement": "O vencedor recebe um troféu chamado 'Norman Brookes Challenge Cup'."},
+          {"statement": "Este torneio é o Aberto da Austrália."}
+        ],
+        "answers": [
+          {"statement": "Aberto da Austrália", "score": 10},
+          {"statement": "Wimbledon", "score": 5},
+          {"statement": "Aberto dos Estados Unidos", "score": 3},
+          {"statement": "Roland Garros", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Qual é o ramo da linguística que estuda a estrutura das palavras?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Esse campo analisa os morfemas e suas combinações."},
+          {"statement": "É o estudo da formação das palavras."},
+          {"statement": "Estuda os prefixos, sufixos e radicais."},
+          {"statement": "Esse ramo é chamado de morfologia."},
+          {"statement": "Morfologia é fundamental para compreender a gramática de um idioma."}
+        ],
+        "answers": [
+          {"statement": "Morfologia", "score": 10},
+          {"statement": "Sintaxe", "score": 5},
+          {"statement": "Semântica", "score": 3},
+          {"statement": "Pragmática", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a unidade mínima de significado em uma língua?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "É o menor elemento que tem sentido em uma língua."},
+          {"statement": "Pode ser uma palavra ou parte de uma palavra."},
+          {"statement": "Inclui prefixos, sufixos e radicais."},
+          {"statement": "Ela é chamada de morfema."},
+          {"statement": "Morfemas podem ser livres ou ligados."}
+        ],
+        "answers": [
+          {"statement": "Morfema", "score": 10},
+          {"statement": "Fonema", "score": 5},
+          {"statement": "Sintagma", "score": 3},
+          {"statement": "Lexema", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o estudo dos sons da fala em uma língua?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Esse campo trata de como os sons são produzidos."},
+          {"statement": "A fonologia estuda os sistemas sonoros das línguas."},
+          {"statement": "A fonética estuda os sons reais e suas características físicas."},
+          {"statement": "É uma área da linguística que analisa os fonemas."},
+          {"statement": "Esse campo é conhecido como fonética."}
+        ],
+        "answers": [
+          {"statement": "Fonética", "score": 10},
+          {"statement": "Fonologia", "score": 5},
+          {"statement": "Morfologia", "score": 3},
+          {"statement": "Sintaxe", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "O que é o estudo da semântica na linguística?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Este campo analisa o significado das palavras e frases."},
+          {"statement": "A semântica está relacionada ao sentido das palavras."},
+          {"statement": "Ela estuda como os significados podem mudar conforme o contexto."},
+          {"statement": "A semântica é a parte da linguística que trata de sentido e significado."},
+          {"statement": "Esse estudo está focado na interpretação de signos e símbolos."}
+        ],
+        "answers": [
+          {"statement": "Semântica", "score": 10},
+          {"statement": "Pragmática", "score": 5},
+          {"statement": "Sintaxe", "score": 3},
+          {"statement": "Morfologia", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a linguagem universalmente reconhecida como a língua dos gestos?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Ela é usada principalmente por pessoas surdas."},
+          {"statement": "A língua de sinais tem sua própria gramática e estrutura."},
+          {"statement": "Ela permite a comunicação visual e gestual."},
+          {"statement": "Ela é conhecida como Língua de Sinais."},
+          {"statement": "A Língua Brasileira de Sinais é uma das variantes dessa língua."}
+        ],
+        "answers": [
+          {"statement": "Língua de Sinais", "score": 10},
+          {"statement": "Linguagem de Gestos", "score": 5},
+          {"statement": "Língua Oral", "score": 3},
+          {"statement": "Linguagem Corporal", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome da teoria linguística que vê a linguagem como um sistema de signos e códigos?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "A teoria foi fortemente influenciada por Ferdinand de Saussure."},
+          {"statement": "Ela considera a linguagem como um sistema de sinais que representam ideias."},
+          {"statement": "A teoria estruturalista da linguagem é baseada nesse conceito."},
+          {"statement": "Ela é conhecida como estruturalismo linguístico."},
+          {"statement": "O estudo se foca na relação entre o signo linguístico e seu significado."}
+        ],
+        "answers": [
+          {"statement": "Estruturalismo", "score": 10},
+          {"statement": "Funcionalismo", "score": 5},
+          {"statement": "Behaviorismo", "score": 3},
+          {"statement": "Construtivismo", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem é considerado o pai da Linguística Moderna?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Ele foi um linguista suíço que revolucionou o estudo da linguagem."},
+          {"statement": "Seu trabalho focou na análise do signo linguístico."},
+          {"statement": "Ele desenvolveu a teoria do signo linguístico."},
+          {"statement": "Seu nome é Ferdinand de Saussure."},
+          {"statement": "Ele é considerado uma das figuras fundadoras do estruturalismo."}
+        ],
+        "answers": [
+          {"statement": "Ferdinand de Saussure", "score": 10},
+          {"statement": "Noam Chomsky", "score": 5},
+          {"statement": "Mikhail Bakhtin", "score": 3},
+          {"statement": "Roman Jakobson", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "O que é um sintagma na linguística?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "É uma sequência de palavras que forma uma unidade de sentido."},
+          {"statement": "Pode ser uma frase ou parte de uma frase."},
+          {"statement": "O sintagma pode ser nominal, verbal ou preposicional."},
+          {"statement": "Essa unidade é composta por um grupo de palavras que têm uma função sintática."},
+          {"statement": "O sintagma é uma construção usada para formar orações."}
+        ],
+        "answers": [
+          {"statement": "Sintagma", "score": 10},
+          {"statement": "Morfema", "score": 5},
+          {"statement": "Frase", "score": 3},
+          {"statement": "Parágrafo", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o termo utilizado para se referir a uma palavra que tem o mesmo significado que outra, mas uma grafia diferente?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "São palavras com significados semelhantes."},
+          {"statement": "Exemplo: ‘feliz’ e ‘contente’."},
+          {"statement": "Elas são chamadas de sinônimos."},
+          {"statement": "Sinônimos podem variar conforme o contexto."},
+          {"statement": "Essas palavras têm uma relação de equivalência semântica."}
+        ],
+        "answers": [
+          {"statement": "Sinônimo", "score": 10},
+          {"statement": "Antônimo", "score": 5},
+          {"statement": "Homonímia", "score": 3},
+          {"statement": "Parônimo", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o estudo da linguagem e seus usos em diferentes contextos sociais?",
+        "topic": "Linguística",
+        "clues": [
+          {"statement": "Esse campo estuda como a linguagem é moldada pelo contexto social."},
+          {"statement": "A pragmática é a área que estuda os significados implícitos."},
+          {"statement": "Ela foca nas intenções comunicativas e nos efeitos do discurso."},
+          {"statement": "A pragmática analisa como as pessoas usam a linguagem no dia a dia."},
+          {"statement": "Ela é essencial para compreender os significados em conversas informais."}
+        ],
+        "answers": [
+          {"statement": "Pragmática", "score": 10},
+          {"statement": "Semântica", "score": 5},
+          {"statement": "Morfologia", "score": 3},
+          {"statement": "Fonologia", "score": 1}
+        ]
+      }
+    },{
+      "Question": {
+        "statement": "Qual é o elemento químico representado pelo símbolo 'Na'?",
+        "topic": "Química",
+        "clues": [
+          {"statement": "Esse elemento é um metal alcalino."},
+          {"statement": "Ele é amplamente encontrado no sal de cozinha."},
+          {"statement": "Sua presença é essencial para o funcionamento dos nervos e músculos."},
+          {"statement": "Em sua forma pura, é um metal macio e de cor prateada."},
+          {"statement": "Este elemento é chamado sódio."}
+        ],
+        "answers": [
+          {"statement": "Sódio", "score": 10},
+          {"statement": "Potássio", "score": 5},
+          {"statement": "Cálcio", "score": 3},
+          {"statement": "Magnesio", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é a fórmula química do gás carbônico?",
+        "topic": "Química",
+        "clues": [
+          {"statement": "Esse gás é um produto da respiração celular."},
+          {"statement": "Ele é composto por carbono e oxigênio."},
+          {"statement": "É um gás que contribui para o efeito estufa."},
+          {"statement": "Sua fórmula contém dois átomos de oxigênio."},
+          {"statement": "Esse composto é conhecido como dióxido de carbono."}
+        ],
+        "answers": [
+          {"statement": "CO2", "score": 10},
+          {"statement": "O2", "score": 5},
+          {"statement": "CO", "score": 3},
+          {"statement": "H2O", "score": 1}
+        ]
+      }
     }
   ]
 }
