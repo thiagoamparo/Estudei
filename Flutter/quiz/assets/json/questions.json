@@ -1,0 +1,194 @@
+{
+  "Questions": [
+    {
+      "Question": {
+        "statement": "Qual é a capital da França?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "É conhecida como a Cidade Luz."},
+          {"statement": "É famosa pela Torre Eiffel."},
+          {"statement": "É a capital da moda."},
+          {"statement": "O rio Sena atravessa essa cidade."},
+          {"statement": "É a capital do país que inventou o croissant."}
+        ],
+        "answers": [
+          {"statement": "Paris", "score": 10},
+          {"statement": "Londres", "score": 5},
+          {"statement": "Roma", "score": 3},
+          {"statement": "Berlim", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem escreveu \"Dom Quixote\"?",
+        "topic": "Literatura",
+        "clues": [
+          {"statement": "O autor era espanhol."},
+          {"statement": "O livro foi publicado no início do século XVII."},
+          {"statement": "O personagem principal luta contra moinhos de vento."},
+          {"statement": "O autor também escreveu novelas exemplares."},
+          {"statement": "Seu nome começa com 'Miguel'."}
+        ],
+        "answers": [
+          {"statement": "Miguel de Cervantes", "score": 10},
+          {"statement": "Machado de Assis", "score": 5},
+          {"statement": "Clarice Lispector", "score": 3},
+          {"statement": "José Saramago", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior planeta do sistema solar?",
+        "topic": "Ciências",
+        "clues": [
+          {"statement": "É conhecido por suas grandes tempestades."},
+          {"statement": "Possui uma mancha vermelha gigante."},
+          {"statement": "Tem dezenas de luas, incluindo Ganimedes."},
+          {"statement": "É um planeta gasoso."},
+          {"statement": "Seu nome está relacionado a um deus romano."}
+        ],
+        "answers": [
+          {"statement": "Júpiter", "score": 10},
+          {"statement": "Saturno", "score": 5},
+          {"statement": "Terra", "score": 3},
+          {"statement": "Urano", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem pintou a Mona Lisa?",
+        "topic": "Arte",
+        "clues": [
+          {"statement": "O pintor nasceu na Itália."},
+          {"statement": "Também foi inventor e cientista."},
+          {"statement": "A pintura está exposta no Museu do Louvre."},
+          {"statement": "É conhecido por seus desenhos anatômicos."},
+          {"statement": "Seu nome completo inclui 'da Vinci'."}
+        ],
+        "answers": [
+          {"statement": "Leonardo da Vinci", "score": 10},
+          {"statement": "Michelangelo", "score": 5},
+          {"statement": "Pablo Picasso", "score": 3},
+          {"statement": "Vincent van Gogh", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o símbolo químico da água?",
+        "topic": "Química",
+        "clues": [
+          {"statement": "É composta por hidrogênio e oxigênio."},
+          {"statement": "Seu estado líquido é essencial para a vida."},
+          {"statement": "Seu símbolo tem três letras."},
+          {"statement": "É conhecida como solvente universal."},
+          {"statement": "Dois átomos de hidrogênio e um de oxigênio formam sua molécula."}
+        ],
+        "answers": [
+          {"statement": "H2O", "score": 10},
+          {"statement": "O2", "score": 5},
+          {"statement": "CO2", "score": 3},
+          {"statement": "NaCl", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o maior oceano do planeta?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "Cobre mais de 30% da superfície da Terra."},
+          {"statement": "É o lar da Fossa das Marianas."},
+          {"statement": "Está entre a América e a Ásia."},
+          {"statement": "Seu nome significa pacífico ou calmo."},
+          {"statement": "É maior que todos os continentes juntos."}
+        ],
+        "answers": [
+          {"statement": "Oceano Pacífico", "score": 10},
+          {"statement": "Oceano Atlântico", "score": 5},
+          {"statement": "Oceano Índico", "score": 3},
+          {"statement": "Oceano Ártico", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Em que ano o homem chegou à Lua pela primeira vez?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Foi durante a missão Apollo 11."},
+          {"statement": "Neil Armstrong foi o primeiro a pisar na Lua."},
+          {"statement": "O evento aconteceu no final da década de 60."},
+          {"statement": "A frase famosa foi: \"Um pequeno passo para um homem, um grande salto para a humanidade.\""},
+          {"statement": "O país responsável foi os Estados Unidos."}
+        ],
+        "answers": [
+          {"statement": "1969", "score": 10},
+          {"statement": "1972", "score": 5},
+          {"statement": "1959", "score": 3},
+          {"statement": "1985", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do autor de \"Harry Potter\"?",
+        "topic": "Literatura",
+        "clues": [
+          {"statement": "É uma escritora britânica."},
+          {"statement": "Seu nome completo é Joanne Rowling."},
+          {"statement": "A série tem 7 livros principais."},
+          {"statement": "Ela publicou alguns livros sob o pseudônimo Robert Galbraith."},
+          {"statement": "Seu sucesso começou em 1997 com \"A Pedra Filosofal\"."}
+        ],
+        "answers": [
+          {"statement": "J.K. Rowling", "score": 10},
+          {"statement": "J.R.R. Tolkien", "score": 5},
+          {"statement": "George R.R. Martin", "score": 3},
+          {"statement": "C.S. Lewis", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Qual é o nome do continente onde fica o Egito?",
+        "topic": "Geografia",
+        "clues": [
+          {"statement": "É o segundo maior continente do mundo."},
+          {"statement": "O rio Nilo atravessa este continente."},
+          {"statement": "O Egito está localizado ao nordeste deste continente."},
+          {"statement": "Inclui o deserto do Saara."},
+          {"statement": "É conhecido como o continente berço da humanidade."}
+        ],
+        "answers": [
+          {"statement": "África", "score": 10},
+          {"statement": "Ásia", "score": 5},
+          {"statement": "Europa", "score": 3},
+          {"statement": "América", "score": 1}
+        ]
+      }
+    },
+    {
+      "Question": {
+        "statement": "Quem foi o primeiro presidente dos Estados Unidos?",
+        "topic": "História",
+        "clues": [
+          {"statement": "Ele aparece na nota de um dólar."},
+          {"statement": "Foi comandante do Exército Continental na Guerra da Independência."},
+          {"statement": "Seu mandato começou em 1789."},
+          {"statement": "É conhecido como o Pai da Pátria."},
+          {"statement": "Seu nome completo inclui 'George'."}
+        ],
+        "answers": [
+          {"statement": "George Washington", "score": 10},
+          {"statement": "Thomas Jefferson", "score": 5},
+          {"statement": "Abraham Lincoln", "score": 3},
+          {"statement": "John Adams", "score": 1}
+        ]
+      }
+    }
+  ]
+}
