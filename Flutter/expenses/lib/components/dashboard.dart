@@ -1,9 +1,9 @@
+import 'package:flutter/material.dart';
+
 import 'package:expenses/components/chart.dart';
 import 'package:expenses/models/chart_data.dart';
 import 'package:expenses/models/register.dart';
 import 'package:expenses/models/value_formatter.dart';
-
-import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});

@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
+
 import 'package:expenses/components/chart_bar.dart';
 import 'package:expenses/models/chart_data.dart';
-
-import 'package:flutter/material.dart';
 
 class Chart extends StatefulWidget {
   final List<ChartData> data;

@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+
 import 'package:expenses/components/inset_shadow_container.dart';
 
 class ChartBar extends StatefulWidget {

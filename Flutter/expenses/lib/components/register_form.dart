@@ -1,9 +1,9 @@
+import 'package:expenses/models/register.dart';
 import 'package:expenses/models/value_formatter.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-
-import '../models/register.dart';
 
 class RegisterForm extends StatefulWidget {
   static final String title = 'Expense Register';

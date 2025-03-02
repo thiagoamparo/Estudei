@@ -1,10 +1,11 @@
+import 'package:intl/intl.dart';
+import 'package:flutter/material.dart';
+
 import 'package:expenses/components/inset_shadow_container.dart';
 import 'package:expenses/components/chart_bar.dart';
 import 'package:expenses/components/register_tile.dart';
 import 'package:expenses/models/register.dart';
 import 'package:expenses/models/value_formatter.dart';
-import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 class RegisterCard extends StatefulWidget {
   static const double _standardCardWidth = 100;

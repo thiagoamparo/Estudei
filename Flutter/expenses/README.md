@@ -10,8 +10,7 @@ Este é um aplicativo desenvolvido em **Flutter** para ajudar você a registrar 
 - 🔎 **Busca e filtros avançados** para localizar despesas rapidamente.  
 - 📊 **Gráfico de barras interativo** para análise detalhada dos gastos.  
 - 🌟 **Lista de despesas mais relevantes**, destacando as mais significativas.  
-- ⚖️ **Cálculo percentual** das despesas em relação ao total gasto.  
-- 💾 **Armazenamento em JSON**, permitindo a persistência dos dados localmente.  
+- ⚖️ **Cálculo percentual** das despesas em relação ao total gasto.
 - 🎨 **Configuração de tema**, permitindo alternar entre tema claro e escuro.  
 
 ## 💡 **Análise de Gastos no Gráfico**  
@@ -30,7 +29,6 @@ O **Expense App** permite alternar entre **tema claro e escuro**, garantindo mel
 
 - **Flutter** 🦋: Framework para desenvolvimento multiplataforma.  
 - **Dart** 🦄: Linguagem de programação utilizada no projeto.  
-- **JSON** 💾: Formato de armazenamento dos dados do aplicativo.  
 
 ## 🚀 **Como Executar o App**  
 
